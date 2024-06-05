@@ -47,7 +47,7 @@ a:hover{
 
 .ppesquisa{
     /* border: 1px solid black; */
-    width: 500em;
+    width: 50em;
     height: 150px;
     margin-top: 5px;
 }
@@ -1797,7 +1797,7 @@ color: black;
 .chatbotao{
     position: fixed;
     top: 90%;
-    left: 7%;
+    left: 97%;
     width:  50px ;
     height: 50px ;
     border-radius: 20px;
@@ -1858,8 +1858,8 @@ color: black;
 }
 .chat{
     position: fixed;
-    top: 140px;
-    left: 990px;
+    top: 90%;
+    left: 97%;
     width:  300px ;
     height: 450px ;
     border: 5px solid orange;
