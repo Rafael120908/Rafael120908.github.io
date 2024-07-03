@@ -7,10 +7,10 @@ img{
 }
 .textborda{
     width: 90%;
-    height: 600px;
+    height: 300px;
     /* border: 1px solid rgb(255, 0, 0); */
     position: absolute;
-    top: 150px;
+    top: 100px;
 
     overflow: hidden;
     border-radius: 35px;
