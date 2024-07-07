@@ -152,7 +152,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 6px 2px orange;
+    box-shadow: 0 0 3px 1px gray;
 
 }
 .inp{
@@ -592,8 +592,6 @@ margin-left: 9em;
     border-radius: 10px;
     margin-top: 25px;
     position: relative;
-    box-shadow: 0 0 10px 1px;
-    background-color: rgb(243, 243, 243);
     overflow: hidden;
 }
 /* #region botoes filtros laranja*/
@@ -601,8 +599,8 @@ margin-left: 9em;
     /* border: 1px solid black; */
     width: 1270px;
     height: 50px;
-    border-radius: 15px;
-    box-shadow: 0 0 6px 2px orange;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px orange;
     display: flex; 
     justify-content: space-around;
     align-items: center;
@@ -620,7 +618,7 @@ margin-left: 9em;
     height: 26px;
     border: none;
     box-shadow: 0 0 1px 2px orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -632,7 +630,7 @@ margin-left: 9em;
     display: flex;  
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .tipos button:nth-child(2){
     width: 150px;
@@ -640,7 +638,7 @@ margin-left: 9em;
     display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .tipos button:nth-child(3){
@@ -649,7 +647,7 @@ margin-left: 9em;
     display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .tipos button:nth-child(7){
@@ -658,7 +656,7 @@ margin-left: 9em;
     display: flex; 
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .tiposfiltro{
     width:  400px;
@@ -673,7 +671,7 @@ margin-left: 9em;
     position: absolute;
     top: 65px;
     left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     width:  400px;
     height:  50px;
     box-shadow: 0 0 ;
@@ -682,7 +680,7 @@ margin-left: 9em;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
-    box-shadow: 0 0 6px 2px orange;
+    box-shadow: 0 0 3px 1px orange;
     display: none;
 
 }
@@ -695,7 +693,7 @@ margin-left: 9em;
     height: 26px;
     border: none;
     box-shadow: 0 0 1px 2px orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -713,7 +711,7 @@ margin-left: 9em;
     position: absolute;
     top: 65px;
     left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     width:  700px;
     height:  50px;
     box-shadow: 0 0 ;
@@ -722,8 +720,8 @@ margin-left: 9em;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
-    box-shadow: 0 0 6px 2px orange;
-    display: nne;
+    box-shadow: 0 0 3px 1px orange;
+    display: none;
 
 }
 .peluciafiltro div:nth-child(n):hover{
@@ -735,7 +733,7 @@ margin-left: 9em;
     height: 26px;
     border: none;
     box-shadow: 0 0 1px 2px orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -747,7 +745,7 @@ margin-left: 9em;
     position: absolute;
     top: 65px;
     left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     width:  1100px;
     height:  50px;
     box-shadow: 0 0 ;
@@ -756,7 +754,7 @@ margin-left: 9em;
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
-    box-shadow: 0 0 6px 2px orange;
+    box-shadow: 0 0 3px 1px orange;
     display: none;
 
 }
@@ -769,7 +767,7 @@ transform: scale(1.1);
     height: 26px;
     border: none;
     box-shadow: 0 0 1px 2px orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -783,7 +781,7 @@ transform: scale(1.1);
     position: absolute;
     top: 65px;
     left: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     width:  800px;
     height:  50px;
     box-shadow: 0 0 ;
@@ -792,7 +790,7 @@ transform: scale(1.1);
     align-items: center;
     justify-content: space-around;
     margin-top: 10px;
-    box-shadow: 0 0 6px 2px orange;
+    box-shadow: 0 0 3px 1px orange;
     display: none;
 
 
@@ -806,7 +804,7 @@ transform: scale(1.1);
     height: 26px;
     border: none;
     box-shadow: 0 0 1px 2px orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -1476,7 +1474,7 @@ transform: scale(1.1);
 }
 @media (max-width:1400px){
     .conteudo{
-        box-shadow: 0 0 5px 10px orange;
+
         width: 1200px;
     }
     .tipos{
@@ -1487,7 +1485,8 @@ transform: scale(1.1);
 }
 @media (max-width:1300px){
     .conteudo{
-        box-shadow: 0 0 5px 10px rgb(0, 0, 65);
+        border: 3px solid gray;
+        box-shadow: 0 0 8px 3px gray;
         width: 1100px;
         overflow-y: scroll;
         height: 900px;
@@ -1504,9 +1503,12 @@ transform: scale(1.1);
     height: 3000vw;
 }
 }
+
 @media (max-width:1150px){
     .conteudo{
-        box-shadow: 0 0 5px 10px rgb(68, 255, 0);
+        border: 3px solid gray;
+        box-shadow: 0 0 8px 3px gray;
+        /* box-shadow: 0 0 5px 10px rgb(68, 255, 0); */
         width: 900px;
         overflow-y: scroll;
         height: 500px;
@@ -1520,12 +1522,14 @@ transform: scale(1.1);
         font-weight: 600;
     }
     .tudo{width: 780px;}
-    .tudo{height: 5000vw;}
+    .tudo{height: 6000vw;}
   
 }
 @media (max-width:950px){    
     .conteudo{
-    box-shadow: 0 0 5px 10px rgb(255, 208, 0);
+        border: 3px solid gray;
+        box-shadow: 0 0 8px 3px gray;
+    /* box-shadow: 0 0 5px 10px rgb(255, 208, 0); */
     width: 500px;
     overflow-y: scroll;
     height: 500px;
@@ -1583,6 +1587,18 @@ top:280px;
 position: absolute;
 top:280px;}
 }
+
+@media (max-width:600px){
+    .conteudo{
+        width:450px;
+    }
+    .tipos{
+        width:418px;
+    }
+    .tudo{width: 480px;
+        height: 25000vw;
+    }
+    }
 @keyframes am {
     to{transform: scale(1.1);}
     
@@ -1798,7 +1814,7 @@ color: black;
 .chatbotao{
     position: fixed;
     top: 90%;
-    left: 97%;
+    left: 95%;
     width:  50px ;
     height: 50px ;
     border-radius: 20px;
@@ -1859,8 +1875,8 @@ color: black;
 }
 .chat{
     position: fixed;
-    top: 90%;
-    left: 97%;
+    top: 38%;
+    left: 80%;
     width:  300px ;
     height: 450px ;
     border: 5px solid orange;
@@ -1873,6 +1889,11 @@ color: black;
     position: fixed;
     display: none;
     z-index: 20;
+}
+@media (max-width:1590px){
+    .chatbotao{
+        display:none;
+}
 }
 .tela{
     width:  300px ;
